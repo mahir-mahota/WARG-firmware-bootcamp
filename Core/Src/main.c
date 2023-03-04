@@ -94,7 +94,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
     //Initializing buffers
-    uint8_t transmit_bits[3] = {0x0, 0x1, 0x80}; // populated with start and configure bits for CH0
+    uint8_t transmit_bits[3] = {0x1, 0x80, 0x0}; // populated with start and configure bits for CH0
     uint8_t receive_bits[3] = {0x0};
 
     //Initializing constants and variables
